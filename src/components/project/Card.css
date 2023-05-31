@@ -1,0 +1,29 @@
+.card-container {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card1 {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  grid-column: 1;
+  text-align: center;
+  justify-content: center;
+}
+.card2 {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  grid-column: 2;
+  text-align: center;
+  justify-content: center;
+}
+.card3 {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  grid-column: 3;
+  text-align: center;
+  justify-content: center;
+}
