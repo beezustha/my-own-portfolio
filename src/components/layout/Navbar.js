@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import {
 	FaBars,
-	FaItems,
 	FaTimes,
-	FaGithub,
 	FaLinkedin,
-	FaFacebook,
 	FaInstagramSquare,
 	FaFacebookSquare,
 	FaGithubSquare,
@@ -17,7 +14,7 @@ const NavbarComponent = () => {
 	const handleClick = () => setNav(!nav);
 	return (
 		<>
-			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-teal-600 text-gray-300">
+			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-purple-600 text-gray-300">
 				<div>
 					<img src="" alt="" />
 				</div>
@@ -60,7 +57,7 @@ const NavbarComponent = () => {
 					className={
 						!nav
 							? "hidden"
-							: "absolute top-0 left-0 w-full h-screen bg-teal-600 flex flex-col justify-center items-center"
+							: "absolute top-0 left-0 w-full h-screen bg-purple-600 flex flex-col justify-center items-center"
 					}
 				>
 					<li className="py-6 text-4xl">
