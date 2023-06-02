@@ -8,7 +8,7 @@ const Home = () => {
 			className=" w-full h-[800px] bg-[#29303A] font-poppins"
 		>
 			{/* container */}
-			<div className="text-center max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[1000px]">
+			<div className="text-center max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[900px]">
 				<div className="flex justify-center items-center py-4">
 					<img
 						className="rounded-full w-24 h-24"
