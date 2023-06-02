@@ -9,7 +9,7 @@ const Experience = () => {
 				name="experience"
 				className="w-full h-[800px] bg-white font-poppins"
 			>
-				<div className="flex flex-col justify-center items-center w-full h-[800px]">
+				<div className="flex flex-col justify-center items-center w-full py-10">
 					<div className=" text-center max-w-[1000px] w-full grid grid-cols-1">
 						<div className="text-xl text-center sm:pb-8 pl-4 font-poppins">
 							My Working Journey
@@ -21,7 +21,7 @@ const Experience = () => {
 					</p>
 				</div> */}
 
-							<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+							<div className="w-full grid grid-cols-1 sm:grid-cols-1 gap-4 text-center py-12">
 								<div className=" hover:scale-110 duration-200">
 									<img
 										className="w-20 mx-auto"
