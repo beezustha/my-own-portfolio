@@ -7,9 +7,9 @@ const Experience = () => {
 		<>
 			<div
 				name="experience"
-				className="w-full h-screen bg-white font-poppins"
+				className="w-full h-[800px] bg-white font-poppins"
 			>
-				<div className="flex flex-col justify-center items-center w-full h-full">
+				<div className="flex flex-col justify-center items-center w-full h-[800px]">
 					<div className=" text-center max-w-[1000px] w-full grid grid-cols-1">
 						<div className="text-xl text-center sm:pb-8 pl-4 font-poppins">
 							My Working Journey
