@@ -14,7 +14,7 @@ const NavbarComponent = () => {
 	const handleClick = () => setNav(!nav);
 	return (
 		<>
-			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-purple-600 text-gray-300">
+			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#5eC737] text-[#F5F6FB]">
 				<div>
 					<img src="" alt="" />
 				</div>
