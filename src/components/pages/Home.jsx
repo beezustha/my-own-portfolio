@@ -16,7 +16,7 @@ const Home = () => {
 						alt="Profile Image"
 					/>
 				</div>
-				<h1 className="text-4xl font-medium font-poppins text-[#D499E2]">
+				<h1 className="text-4xl font-medium font-poppins text-[#D499E2] ">
 					Bijaya Shrestha
 				</h1>
 				<h2 className="text-2xl py-2 font-bold text-white">
@@ -31,11 +31,11 @@ const Home = () => {
 					React.
 				</p>
 				<div className="py-10 flex justify-center items-center gap-5">
-					<button className=" text-white group border-2 px-4 py-4 my-2 items-center hover:bg-pink-600 hover:border-pink-600">
+					<button className=" text-white group border-2 px-4 py-4 my-2 items-center hover:bg-pink-600 hover:border-pink-600 rounded-l-lg">
 						View Work
 						<span className="group-hover:rotate-90 duration-300"></span>
 					</button>
-					<button className=" text-white group border-2 px-4 py-4 my-2 items-center hover:bg-pink-600 hover:border-pink-600">
+					<button className=" text-white group border-2 px-4 py-4 my-2 items-center hover:bg-pink-600 hover:border-pink-600 rounded-r-lg">
 						My Resume
 						<span className="group-hover:rotate-90 duration-300"></span>
 					</button>
