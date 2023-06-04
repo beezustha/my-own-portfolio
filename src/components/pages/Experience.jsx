@@ -11,7 +11,7 @@ const Experience = () => {
 			>
 				<div className="flex flex-col justify-center items-center w-full py-10">
 					<div className=" text-center max-w-[1000px] w-full grid grid-cols-1">
-						<div className="text-xl text-center sm:pb-8 pl-4 font-poppins">
+						<div className="text-[28px] text-center sm:pb-8 pl-4">
 							My Working Journey
 						</div>
 						<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
