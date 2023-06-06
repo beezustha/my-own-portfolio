@@ -7,7 +7,7 @@ const Experience = () => {
 		<>
 			<div
 				name="experience"
-				className="w-full h-[600px] bg-white font-poppins"
+				className=" bg-white font-poppins md:w-full h-[900px] "
 			>
 				<div className="flex flex-col justify-center items-center w-full py-10">
 					<div className=" text-center max-w-[1000px] w-full grid grid-cols-1">
@@ -21,21 +21,19 @@ const Experience = () => {
 					</p>
 				</div> */}
 
-							<div className="w-full flex justify-between text-center py-12 ">
+							<div className="w-full justify-between text-center py-12 grid grid-cols-1 md:grid-cols-3 gap-4">
 								<div className=" hover:scale-110 duration-200 ">
-									<div className="">
-										<img
-											className="w-40 mx-auto "
-											src={CodeHimalaya}
-											alt="Company icon"
-										/>
-										<p className="my-4">
-											CodeHimalaya Pvt Ltd.
-										</p>
-										<p className="text-sm">
-											Location: Lalitpur
-										</p>
-									</div>
+									<img
+										className="w-40 mx-auto "
+										src={CodeHimalaya}
+										alt="Company icon"
+									/>
+									<p className="my-4">
+										CodeHimalaya Pvt Ltd.
+									</p>
+									<p className="text-sm">
+										Location: Lalitpur
+									</p>
 								</div>
 								<div className="hover:scale-110 duration-200">
 									<img
