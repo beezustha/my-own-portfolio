@@ -14,14 +14,14 @@ const Experience = () => {
 						<div className="text-[28px] text-center sm:pb-8 pl-4">
 							My Working Journey
 						</div>
-						<div className="max-w-[1000px] mx-auto p-4  justify-center w-full h-full">
+						<div className="max-w-[1000px] mx-auto p-4  justify-center w-full h-full lg:h-[400px]">
 							{/* <div>
 					<p className="py-4">
 						// These are the technologies I've worked with
 					</p>
 				</div> */}
 
-							<div className="w-full justify-between text-center py-12 grid grid-cols-1 md:grid-cols-3 gap-4">
+							<div className="w-full justify-between text-center py-12 grid grid-cols-1 md:grid-cols-3 gap-4 ">
 								<div className=" hover:scale-110 duration-200 ">
 									<img
 										className="w-40 mx-auto "
